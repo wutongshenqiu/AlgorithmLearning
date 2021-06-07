@@ -1,0 +1,2 @@
+- [链表中重复元素的删除](link-delete.md)
+  - [PAT 1097](https://pintia.cn/problem-sets/994805342720868352/problems/994805369774129152)

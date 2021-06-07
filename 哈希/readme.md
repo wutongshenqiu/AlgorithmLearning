@@ -1,0 +1,3 @@
+- [哈希表](hash-table.md)
+  - ==[PAT1145](https://pintia.cn/problem-sets/994805342720868352/problems/994805343236767744)==
+    - 这道题有点不太严谨

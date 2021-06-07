@@ -1,0 +1,3 @@
+- [判断堆类型](judge-heap.md)
+  - [PAT 1147](https://pintia.cn/problem-sets/994805342720868352/problems/994805342821531648)
+  - [PAT 1155](https://pintia.cn/problem-sets/994805342720868352/problems/1071785408849047552)
