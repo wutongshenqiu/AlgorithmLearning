@@ -10,14 +10,33 @@
   - 二叉树的**转置(inverted)**
     - 所有非叶子节点的左右子树互换
       - 也称为 `mirror of the input tree`
+      
     - [PAT 1102](https://pintia.cn/problem-sets/994805342720868352/problems/994805365537882112)
+
+    - [leetcode 剑指 Offer 28](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
+
+      - 如何判断二叉树是否是对称的(和镜像一样)？
+
+        ```c++
+        bool judge(TreeNode *left, TreeNode *right) {
+            if (!left && !right) return true;
+            if (left && right && left->val == right->val) {
+                return judge(left->left, right->right) && 
+                       judge(left->right, right->left);
+            }
+        
+            return false;
+        }
+        ```
   - **栈**实现遍历
+    
     - [PAT 1086](https://pintia.cn/problem-sets/994805342720868352/problems/994805380754817024)
 - [红黑树](red-black-tree.md)
   - [PAT 1135](https://pintia.cn/problem-sets/994805342720868352/problems/994805346063728640)
 - [平衡二叉树](avl-tree.md)
   - [PAT 1123](https://pintia.cn/problem-sets/994805342720868352/problems/994805351302414336)
 - [树状数组](fenwick-tree.md)
+  
   - [PAT 1057](https://pintia.cn/problem-sets/994805342720868352/problems/994805417945710592)
 - [树的直径](tree-diameter.md)
   - [acwing 1207](https://www.acwing.com/problem/content/description/1209/)
