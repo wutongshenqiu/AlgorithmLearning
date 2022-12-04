@@ -1,5 +1,3 @@
-
-
 1. 用普通队列怎么做
 2. 将队列中冗余的元素删掉 -> 具有了单调性
 3. 可以用 O(1) 的时间从队头/尾取出最值
@@ -15,7 +13,7 @@
 
 ### 代码
 
-```c++
+```cpp
 vector<int> maxSlidingWindow(vector<int>& nums, int k) {
     vector<int> ans;
     deque<int> dq;
@@ -35,10 +33,6 @@ vector<int> maxSlidingWindow(vector<int>& nums, int k) {
     return ans;
 }
 ```
-
-
-
-
 
 ## ref
 

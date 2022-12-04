@@ -2,8 +2,6 @@
 
 记录在PAT和acwing以及leetcode刷题的一些总结
 
-
-
 ## content
 
 [字符串处理](字符串处理)

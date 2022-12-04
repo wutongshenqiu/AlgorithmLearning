@@ -1,4 +1,3 @@
-
 ## 拓扑排序
 
 - [简介](http://songlee24.github.io/2015/05/07/topological-sorting/)
